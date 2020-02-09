@@ -113,7 +113,7 @@ i {
 }
 
 .card-img-top:hover {
-  transform: scale(0.25);
+  transform: scale(0.5);
 }
 
 .bio-section {
