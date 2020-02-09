@@ -1,18 +1,28 @@
 /*Abby C. Kuranz Portfolio*/
 
 body {
-  color: #777;
+  color: #fff;
   font-size: 20px;
   height: 100%;
   line-height: 2;
   background-color: #fff;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-image: url(../images/BackgroundImages/kayle-kaupanger-_JOupCumElE-unsplash_backgroundImage_2500.jpg);
-  /* opacity: 0.5; */
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  text-align: center;
 }
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
 a {
   color: #00a08d;
   text-decoration: underline;
@@ -30,10 +40,20 @@ h1 {
   padding: 15px;
 }
 
+h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px #00a08d;
+  /* font-family: "Georgia", Times, "Times New Roman", serif; */
+  padding: 15px;
+  text-align: left;
+}
+
 h2 {
   /* color: #00a08d; */
   color: #ffffff;
-  font-size: 34px;
+  font-size: 48px;
   font-weight: bolder;
   text-shadow: 1px 1px #00a08d;
   /* font-family: "Georgia", Times, "Times New Roman", serif; */
@@ -96,6 +116,10 @@ i {
   transform: scale(0.25);
 }
 
+.bio-section {
+  text-align: left;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -140,7 +164,7 @@ hr {
 }
 
 .headshot {
-  margin: 0px 25px 0px 0px;
+  margin: auto;
   /* border: 10px solid #00a08d; */
   border-radius: 50%;
   box-shadow: 5px 5px #00a08d;
