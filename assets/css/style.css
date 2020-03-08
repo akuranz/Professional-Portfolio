@@ -94,6 +94,7 @@ i {
   margin-top: 25px;
   border-radius: 0px;
   border: none;
+  box-shadow: 3px 3px #ffffff;
 }
 
 .card-header {
@@ -190,6 +191,16 @@ hr {
   background-color: #00a08d;
   border: none;
   border-radius: 0px;
+}
+
+.filter {
+  background-color: #00a08d;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+
+.fa-caret-down {
+  color: #ffffff;
 }
 
 .modal-header {

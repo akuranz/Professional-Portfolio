@@ -17,10 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <!--Font Awesome-->
-    <script
-      src="https://kit.fontawesome.com/c875ce7059.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/c875ce7059.js" crossorigin="anonymous"></script>
 
     <!--Title-->
     <title>Abby C. Kuranz | Portfolio</title>
@@ -61,7 +58,7 @@
          <li class="nav-item">
            <a
              class="nav-link"
-             href="./assets/KuranzAbby_Resume_2020.pdf"
+             href="./assets/KuranzAbby_Resume_2020_dev.pdf"
              target="_blank"
              >Resume</a
            >
@@ -82,18 +79,24 @@
               <h1 class="pt-4" style="text-align: center;">Portfolio</h1>
             </div>
           </div>
+          <div class="row m-auto d-flex justify-content-center">
+            <button class="btn btn-info filter m-1" id="fullStackFilter" data-state="disabled">Full Stack Development <i class="fas fa-caret-down"></i></button>
+            <button class="btn btn-info filter m-1" id="digitalMarketingFilter">Digital Marketing <i class="fas fa-caret-down"></i></button>
+            <button class="btn btn-info  filter m-1" id="dataVisualiztionFilter">Data Visualization <i class="fas fa-caret-down"></i></button>
+          </div>
           <div class="row">
             <div class="col-md">
               <hr />
             </div>
           </div>
+          
 
           <!--Cards-->
           <div class="row mb-5 px-3">
             <!--Row 1-->
             <div class="row">
-                <div class="col-md">
-                    <div class="card text-center">
+                <div class="col-md" >
+                    <div class="card text-center fullStackFilter" style="display:none;">
                       <img
                         class="card-img-top img-fluid"
                         src="./assets/images/yutacar-JKMnm3CIncw-unsplash.jpg"
