@@ -1,6 +1,5 @@
 $("#full-bio").on("click", function() {
   let state = $(this).attr("data-state");
-  console.log($(this).attr("data-state"));
   if (state === "disabled") {
     $("#full-bio").attr("data-state", "enabled");
     $("#bio-description").attr("style", "display: block");
@@ -14,7 +13,6 @@ $("#full-bio").on("click", function() {
 
 $("#digital-marketer").on("click", function() {
   let state = $(this).attr("data-state");
-  console.log($(this).attr("data-state"));
   if (state === "disabled") {
     $("#digital-marketer").attr("data-state", "enabled");
     $("#dm-description").attr("style", "display: block");

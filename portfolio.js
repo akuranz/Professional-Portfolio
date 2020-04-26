@@ -1,6 +1,5 @@
 $("#fullStackFilter").on("click", function() {
-  let state = $(this).data("state");
-  console.log($(this).data("state"));
+  let state = $(this).data("data-state");
   if (state === "disabled") {
     $(".fullStackFilter").attr("data-state", "enabled");
     $(".fullStackFilter").attr("style", "display: block");
