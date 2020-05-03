@@ -1,5 +1,6 @@
-$("#full-bio").on("click", function() {
+$("#full-bio").on("click", function () {
   let state = $(this).attr("data-state");
+  console.log(state);
   if (state === "disabled") {
     $("#full-bio").attr("data-state", "enabled");
     $("#bio-description").attr("style", "display: block");
@@ -11,7 +12,7 @@ $("#full-bio").on("click", function() {
   }
 });
 
-$("#digital-marketer").on("click", function() {
+$("#digital-marketer").on("click", function () {
   let state = $(this).attr("data-state");
   if (state === "disabled") {
     $("#digital-marketer").attr("data-state", "enabled");
@@ -24,7 +25,7 @@ $("#digital-marketer").on("click", function() {
   }
 });
 
-$("#full-stack-developer").on("click", function() {
+$("#full-stack-developer").on("click", function () {
   let state = $(this).attr("data-state");
   if (state === "disabled") {
     $("#full-stack-developer").attr("data-state", "enabled");
@@ -37,7 +38,7 @@ $("#full-stack-developer").on("click", function() {
   }
 });
 
-$("#data-visualizer").on("click", function() {
+$("#data-visualizer").on("click", function () {
   let state = $(this).attr("data-state");
   if (state === "disabled") {
     $("#data-visualizer").attr("data-state", "enabled");
