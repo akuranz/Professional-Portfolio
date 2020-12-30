@@ -79,30 +79,56 @@
           <div class="col-md-10 main-content">
             <div class="row">
               <div class="col-md">
-                <h1 class="pt-4" style="text-align: center;">Portfolio</h1>
+                <h1 class="pt-4" style="text-align: center">Portfolio</h1>
               </div>
             </div>
-            <!-- <div class="row m-auto d-flex justify-content-center">
+            <div class="row m-auto d-flex justify-content-center">
               <button
                 class="btn btn-info filter m-1"
                 id="fullStackFilter"
                 data-state="disabled"
               >
-                Full Stack Development <i class="far fa-circle"></i>
+                Full Stack Development
+                <i id="fullStackFilterIcon" class="fas fa-circle"></i>
               </button>
               <button
                 class="btn btn-info filter m-1"
                 id="digitalMarketingFilter"
+                data-state="disabled"
               >
-                Digital Marketing <i class="far fa-circle"></i>
+                Digital Marketing
+                <i id="digitalMarketingFilterIcon" class="fas fa-circle"></i>
               </button>
+
               <button
                 class="btn btn-info filter m-1"
-                id="dataVisualiztionFilter"
+                id="dataVisualizationFilter"
+                data-state="disabled"
               >
-                Data Visualization <i class="far fa-circle"></i>
+                Data Visualization
+                <i id="dataVisualizationFilterIcon" class="fas fa-circle"></i>
               </button>
-            </div> -->
+              <!-- <button
+                class="btn btn-info filter m-1 dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                id="wordPressFilter"
+                data-state="disabled"
+              >
+                Toggle Button Example
+                <i id="wordPressFilterIcon" class="fas fa-circle"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="html"
+                  >HTML<i id="fullStackFilterIcon" class="fas fa-circle"></i
+                ></a>
+                <a class="dropdown-item" id="css">CSS</a>
+                <a class="dropdown-item" id="react">React</a>
+              </div> -->
+            </div>
             <div class="row">
               <div class="col-md">
                 <hr />
@@ -113,7 +139,7 @@
             <div class="row mb-5 px-3">
               <!--Row 1-->
               <div class="row">
-                <div class="col-md fullStackProject" style="display: block;">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -135,7 +161,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -156,7 +182,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -180,7 +206,7 @@
               </div>
               <!--Row 2-->
               <div class="row">
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -201,7 +227,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -222,7 +248,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -247,7 +273,7 @@
 
               <!--Row 3-->
               <div class="row">
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -268,7 +294,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -289,7 +315,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -313,7 +339,7 @@
               </div>
               <!--Row 4-->
               <div class="row">
-                <div class="col-md">
+                <div class="col-md fullStackProject" style="display: block">
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -334,7 +360,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -355,7 +384,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -379,7 +411,10 @@
               </div>
               <!--Row 4-->
               <div class="row">
-                <div class="col-md">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -400,7 +435,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
@@ -421,11 +459,14 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="col-md">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
                   <div class="card text-center">
                     <img
                       class="card-img-top img-fluid"
-                      src="./assets/images/olivier-chatel-_RKuuBDYpF0-unsplash.jpg"
+                      src="./assets/images/DeployedScreenshots/TererroMineStoryMap.png"
                       alt="Card image"
                     />
                     <div
@@ -435,13 +476,13 @@
                         type="button"
                         class="btn btn-info p-3"
                         data-toggle="modal"
-                        data-target="#lakePowellModal"
+                        data-target="#tererroModal"
                       >
-                        Lake Powell: A Story of Water in the West
+                        Tererro Mine Story Map
                       </button>
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
               <!--End Grid-->
             </div>
@@ -491,9 +532,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Drinking Buddy
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Drinking Buddy</h5>
               <button
                 type="button"
                 class="close"
@@ -512,7 +551,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -529,7 +568,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -582,9 +621,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Coding Quiz
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Coding Quiz</h5>
               <button
                 type="button"
                 class="close"
@@ -603,7 +640,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -618,7 +655,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -686,7 +723,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -703,7 +740,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -754,9 +791,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Day Planner
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Day Planner</h5>
               <button
                 type="button"
                 class="close"
@@ -775,7 +810,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -790,7 +825,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -858,7 +893,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -873,7 +908,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -952,7 +987,7 @@
       >
     </div> -->
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -996,9 +1031,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Note Taker
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Note Taker</h5>
               <button
                 type="button"
                 class="close"
@@ -1017,7 +1050,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1031,7 +1064,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">>> Languages & Tools:</h5>
+                <h5 style="color: #00a08d">>> Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1080,9 +1113,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Eat-the-burger
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Eat-the-burger</h5>
               <button
                 type="button"
                 class="close"
@@ -1101,7 +1132,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1117,7 +1148,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1166,9 +1197,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Travel Cheap
-              </h5>
+              <h5 class="modal-title" id="exampleModalLabel">Travel Cheap</h5>
               <button
                 type="button"
                 class="close"
@@ -1187,7 +1216,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1202,7 +1231,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1274,7 +1303,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1292,7 +1321,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1364,7 +1393,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1380,7 +1409,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1452,7 +1481,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1470,7 +1499,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1542,7 +1571,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1558,7 +1587,7 @@
                 </p>
               </div>
               <div class="row pl-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1630,7 +1659,7 @@
                 />
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Summary:</h5>
+                <h5 style="color: #00a08d">Summary:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1645,7 +1674,7 @@
                 </p>
               </div>
               <div class="row px-4">
-                <h5 style="color: #00a08d;">Languages & Tools:</h5>
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
                 <p
                   style="
                     color: #777777;
@@ -1660,6 +1689,93 @@
               <div class="row px-4">
                 <a
                   href="https://westernresourceadvocates.org/snowpack-in-the-west/"
+                  target="_blank"
+                  ><h5>>> Deployed Project</h5></a
+                >
+              </div>
+              <!-- <div class="row pl-4">
+                <a
+                  href="https://public.tableau.com/profile/abby.kuranz#!/vizhome/CEPEmissions/GreenhouseGasReductions"
+                  target="_blank"
+                  ><h5>>> Tableau Workbook</h5></a
+                >
+              </div> -->
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Tererro-->
+      <div
+        class="modal fade"
+        id="tererroModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Tererro Mine Story Map
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row px-4">
+                <img
+                  class="modal-img-top img-fluid"
+                  src="./assets/images/DeployedScreenshots/TererroMineStoryMap.png"
+                  alt="Card image"
+                />
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Summary:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  Proposed exploratory mining operations threaten a community
+                  still recovering from a decades-old mining disaster. See how
+                  we can use ArcGIS StoryMaps to tell the story.
+                </p>
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  ArcGIS
+                </p>
+              </div>
+              <div class="row px-4">
+                <a
+                  href="https://storymaps.arcgis.com/stories/10f26068725b4534988dda4aba7bc0cb"
                   target="_blank"
                   ><h5>>> Deployed Project</h5></a
                 >
