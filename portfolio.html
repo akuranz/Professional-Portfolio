@@ -91,14 +91,14 @@
                 Full Stack Development
                 <i id="fullStackFilterIcon" class="fas fa-circle"></i>
               </button>
-              <button
+              <!-- <button
                 class="btn btn-info filter m-1"
                 id="digitalMarketingFilter"
                 data-state="disabled"
               >
                 Digital Marketing
                 <i id="digitalMarketingFilterIcon" class="fas fa-circle"></i>
-              </button>
+              </button> -->
 
               <button
                 class="btn btn-info filter m-1"
@@ -409,7 +409,7 @@
                   </div>
                 </div>
               </div>
-              <!--Row 4-->
+              <!--Row 5-->
               <div class="row">
                 <div
                   class="col-md dataVisualizationProject"
@@ -479,6 +479,81 @@
                         data-target="#tererroModal"
                       >
                         Tererro Mine Story Map
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Row 6-->
+              <div class="row">
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top img-fluid"
+                      src="./assets/images/DeployedScreenshots/ColoradoRiverApportionmentsMap.png"
+                      alt="Card image"
+                    />
+                    <div
+                      class="card-img-overlay p-0 mb-3 d-flex flex-column justify-content-end align-items-stretch"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-info p-3"
+                        data-toggle="modal"
+                        data-target="#CORiverMapModal"
+                      >
+                        The Colorado River Compact Apportionments Map
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top img-fluid"
+                      src="./assets/images/DeployedScreenshots/CORiverCompact_withTitle@72.png"
+                      alt="Card image"
+                    />
+                    <div
+                      class="card-img-overlay p-0 mb-3 d-flex flex-column justify-content-end align-items-stretch"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-info p-3"
+                        data-toggle="modal"
+                        data-target="#CORiverGraphicModal"
+                      >
+                        The Colorado River Compact Apportionments Infographic
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md dataVisualizationProject"
+                  style="display: block"
+                >
+                  <div class="card text-center">
+                    <img
+                      class="card-img-top img-fluid"
+                      src="./assets/images/DeployedScreenshots/EV_Infographic_red_final.jpg"
+                      alt="Card image"
+                    />
+                    <div
+                      class="card-img-overlay p-0 mb-3 d-flex flex-column justify-content-end align-items-stretch"
+                    >
+                      <button
+                        type="button"
+                        class="btn btn-info p-3"
+                        data-toggle="modal"
+                        data-target="#COZEVModal"
+                      >
+                        Colorado Zero Emission Vehicles Infographic
                       </button>
                     </div>
                   </div>
@@ -1778,6 +1853,267 @@
                   href="https://storymaps.arcgis.com/stories/10f26068725b4534988dda4aba7bc0cb"
                   target="_blank"
                   ><h5>>> Deployed Project</h5></a
+                >
+              </div>
+              <!-- <div class="row pl-4">
+                <a
+                  href="https://public.tableau.com/profile/abby.kuranz#!/vizhome/CEPEmissions/GreenhouseGasReductions"
+                  target="_blank"
+                  ><h5>>> Tableau Workbook</h5></a
+                >
+              </div> -->
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CO River Apportionments Map-->
+      <div
+        class="modal fade"
+        id="CORiverMapModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                The Colorado River Compact Apportionments Map
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row px-4">
+                <img
+                  class="modal-img-top img-fluid"
+                  src="./assets/images/DeployedScreenshots/ColoradoRiverApportionmentsMap.png"
+                  alt="Card image"
+                />
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Summary:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  The Colorado River is managed and operated under numerous
+                  compacts, federal laws, court decisions and decrees,
+                  contracts, and regulatory guidelines collectively known as the
+                  “Law of the River.” Explore the map online!
+                </p>
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  ArcGIS Pro + Online
+                </p>
+              </div>
+              <div class="row px-4">
+                <a href="https://arcg.is/1P11PG0" target="_blank"
+                  ><h5>>> Deployed Project</h5></a
+                >
+              </div>
+              <!-- <div class="row pl-4">
+                <a
+                  href="https://public.tableau.com/profile/abby.kuranz#!/vizhome/CEPEmissions/GreenhouseGasReductions"
+                  target="_blank"
+                  ><h5>>> Tableau Workbook</h5></a
+                >
+              </div> -->
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CO River Apportionments Inforgraphic-->
+      <div
+        class="modal fade"
+        id="CORiverGraphicModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                The Colorado River Compact Apportionments Infographic
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row px-4">
+                <img
+                  class="modal-img-top img-fluid"
+                  src="./assets/images/DeployedScreenshots/CORiverCompact_withTitle@72.png"
+                  alt="Card image"
+                />
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Summary:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  The Colorado River is managed and operated under numerous
+                  compacts, federal laws, court decisions and decrees,
+                  contracts, and regulatory guidelines collectively known as the
+                  “Law of the River.” Download the infographic!
+                </p>
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  ArcGIS, Adobe Illustrator
+                </p>
+              </div>
+              <div class="row px-4">
+                <a href="./assets/pdfs/CORiverCompact.pdf" target="_blank"
+                  ><h5>>> Download the Infographic</h5></a
+                >
+              </div>
+              <!-- <div class="row pl-4">
+                <a
+                  href="https://public.tableau.com/profile/abby.kuranz#!/vizhome/CEPEmissions/GreenhouseGasReductions"
+                  target="_blank"
+                  ><h5>>> Tableau Workbook</h5></a
+                >
+              </div> -->
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CO ZEV Rulemaking Inforgraphic-->
+      <div
+        class="modal fade"
+        id="COZEVModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Colorado Zero Emission Vehicle Rulemaking Infographic
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row px-4">
+                <img
+                  class="modal-img-top img-fluid"
+                  src="./assets/images/DeployedScreenshots/EV_Infographic_red_final.jpg"
+                  alt="Card image"
+                />
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Summary:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  In Colorado, ZEVs could provide the state between $7.6 billion
+                  and $43 billion in economic benefits by 2050. Importantly, the
+                  higher level of savings is associated with higher rates of ZEV
+                  adoption – with ZEVs accounting for 26% of vehicles in 2030,
+                  and 98% by 2050.
+                </p>
+              </div>
+              <div class="row px-4">
+                <h5 style="color: #00a08d">Languages & Tools:</h5>
+                <p
+                  style="
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: left;
+                  "
+                >
+                  Adone Illustrator
+                </p>
+              </div>
+              <div class="row px-4">
+                <a
+                  href="./assets/pdfs/EV_Infographic_yellow_final.pdf"
+                  target="_blank"
+                  ><h5>>> Download the Infographic</h5></a
                 >
               </div>
               <!-- <div class="row pl-4">
